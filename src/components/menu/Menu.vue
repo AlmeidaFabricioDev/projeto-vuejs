@@ -1,6 +1,6 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
-  <ul>
+  <ul class="menu">
     <li>
       <a  @click="() => this.$router.push({path:'/'})">Dashboard</a>
     </li>
@@ -42,7 +42,7 @@
         margin-right: 10px;
     }
 
-    li a{
+    ul.menu li a{
         display: block;
         color: #fff;
         padding: 15px 17px;
