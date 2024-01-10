@@ -1,11 +1,12 @@
 <template>
-  <nav>
-    <!-- <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link> -->
-    <Menu v-if="$route.name !=='Login'"></Menu>
-
-  </nav>
-  <router-view/>
+  <div>
+    <nav>
+      <!-- <router-link to="/">Home</router-link> |
+      <router-link to="/about">About</router-link> -->
+      <Menu v-if="$route.name !== 'Login'"></Menu>
+    </nav>
+    <router-view />
+  </div>
 </template>
 
 <script>
